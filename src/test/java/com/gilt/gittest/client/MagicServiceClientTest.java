@@ -28,7 +28,7 @@ public class MagicServiceClientTest {
 	}
 	
 	@Test
-	public void test() {
+	public void testClient() {
 		MagicServiceClient client = new MagicServiceClient(service);
 		assertEquals(MAGIC, client.doMagic());
 	}
