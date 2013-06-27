@@ -11,7 +11,7 @@ public class MagicServiceImplTest {
 	private final MagicService service = new MagicServiceImpl();
 	
 	@Test
-	public void test() {
+	public void testServer() {
 		assertEquals("Magic", service.doMagic());
 	}
 
