@@ -29,6 +29,7 @@ public class AppTest extends TestCase {
 	 * Rigourous Test :-)
 	 */
 	public void testApp() {
-		assertTrue(true);
+		final String message = "Hello";
+		assertEquals(message, new App(message).toString());
 	}
 }
